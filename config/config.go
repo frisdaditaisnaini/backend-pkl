@@ -18,10 +18,10 @@ func InitConfiguration() Config {
 	return Config{
 		SERVER_ADDRESS: GetOrDefault("SERVER_ADDRESS", "0.0.0.0:1323"),
 		DB_USERNAME:    GetOrDefault("DB_USERNAME", "root"),
-		DB_PASSWORD:    GetOrDefault("DB_PASSWORD", "T3Csk2IF3bW4R44EsFhM"),
+		DB_PASSWORD:    GetOrDefault("DB_PASSWORD", "U1Hu6NjUYvtM1bGpawZx"),
 		DB_NAME:        GetOrDefault("DB_NAME", "railway"),
-		DB_PORT:        GetOrDefault("DB_PORT", "7938"),
-		DB_HOST:        GetOrDefault("DB_HOST", "containers-us-west-129.railway.app"),
+		DB_PORT:        GetOrDefault("DB_PORT", "6310"),
+		DB_HOST:        GetOrDefault("DB_HOST", "containers-us-west-20.railway.app"),
 		JWT_KEY:        GetOrDefault("JWT_KEY", "sungguhRahasia"),
 		LOC:            GetOrDefault("LOC", "Asia%2FJakarta"),
 	}
